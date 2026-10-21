@@ -1,0 +1,11 @@
+name: ✨ Proposition
+labels: ['enhancement', 'needs-triage']
+body:
+  - type: textarea
+    attributes:
+      label: Problème à résoudre
+      description: Le besoin, pas la solution. Quel projet/site le rencontre ?
+    validations: { required: true }
+  - type: textarea
+    attributes:
+      label: Solution envisagée

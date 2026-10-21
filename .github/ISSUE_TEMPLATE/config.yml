@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Questions & discussions
+    url: https://github.com/<ORG>/<REPO>/discussions
+    about: Les questions d'usage vont dans les Discussions, pas les issues.
+  - name: 🔒 Rapport de sécurité privé
+    url: https://github.com/<ORG>/<REPO>/security/advisories/new
+    about: Jamais d'issue publique pour une faille.

@@ -1,0 +1,19 @@
+name: 🐛 Bug report
+labels: ['bug', 'needs-triage']
+body:
+  - type: checkboxes
+    attributes:
+      label: Recherche préalable
+      options:
+        - label: J'ai cherché dans les issues existantes.
+          required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Que s'est-il passé ?
+      description: Comportement attendu vs observé, étapes pour reproduire.
+    validations: { required: true }
+  - type: textarea
+    attributes:
+      label: Environnement
+      description: OS, navigateur, version du package, extrait de config.
