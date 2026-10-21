@@ -16,5 +16,3 @@ for 6 months after the release of the next major version. This may be changed at
 ## SBOM
 
 Each public release includes a CycloneDX SBOM. This may be changed with the approval of the Modulane project administrator.
-
-Translated with DeepL.com (free version)
