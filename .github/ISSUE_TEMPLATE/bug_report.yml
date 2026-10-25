@@ -1,19 +1,41 @@
 name: 🐛 Bug report
-labels: ['bug', 'needs-triage']
+description: Something does not work as described.
+labels: ["bug", "needs-triage"]
 body:
   - type: checkboxes
     attributes:
-      label: Recherche préalable
+      label: Before you report
       options:
-        - label: J'ai cherché dans les issues existantes.
+        - label: I searched the existing issues and this bug has not been reported yet.
+          required: true
+        - label: I am using the latest version of the tool.
           required: true
   - type: textarea
     id: what-happened
     attributes:
-      label: Que s'est-il passé ?
-      description: Comportement attendu vs observé, étapes pour reproduire.
-    validations: { required: true }
+      label: What happened?
+      description: What you expected, what happened instead, and the error message if there is one.
+    validations:
+      required: true
   - type: textarea
+    id: steps
     attributes:
-      label: Environnement
-      description: OS, navigateur, version du package, extrait de config.
+      label: Steps to reproduce
+      placeholder: |
+        1. Run `...`
+        2. Select `...`
+        3. See the error
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: The tool's version, your operating system and shell, your Node.js version, and any relevant configuration.
+      value: |
+        Tool version:
+        Operating system:
+        Shell:
+        Node.js version:
+    validations:
+      required: true

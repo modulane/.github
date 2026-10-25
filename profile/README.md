@@ -6,8 +6,8 @@ Modulane is a collection of tools I build for my own workflow and publish for an
 
 ## Tools
 
-| Tool | What it does | Install |
-| --- | --- | --- |
+| Tool                                                               | What it does                                                                                                                                        | Install                                      |
+| ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
 | [Dev Workspace CLI](https://github.com/modulane/dev-workspace-cli) | Browse the projects in your development folder and run their scripts from one interactive menu, with npm, pnpm, Yarn or Bun detected automatically. | `npm install -g @modulane/dev-workspace-cli` |
 
 More tools are on the way. Watch this organisation or star the repositories to hear about new ones.

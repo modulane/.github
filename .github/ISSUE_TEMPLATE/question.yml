@@ -1,0 +1,18 @@
+name: ❓ Question
+description: Ask how to use a tool.
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: Please read the tool's README first. It answers most setup and usage questions.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What you are trying to do, and what you have tried so far.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Tool version and operating system

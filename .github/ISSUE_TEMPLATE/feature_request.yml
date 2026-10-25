@@ -1,11 +1,21 @@
-name: ✨ Proposition
-labels: ['enhancement', 'needs-triage']
+name: ✨ Feature request
+description: Suggest a new feature or an improvement.
+labels: ["enhancement", "needs-triage"]
 body:
   - type: textarea
+    id: problem
     attributes:
-      label: Problème à résoudre
-      description: Le besoin, pas la solution. Quel projet/site le rencontre ?
-    validations: { required: true }
+      label: Problem to solve
+      description: Describe the need, not the solution. What are you trying to do, and what gets in the way today?
+    validations:
+      required: true
   - type: textarea
+    id: solution
     attributes:
-      label: Solution envisagée
+      label: Proposed solution
+      description: How you imagine the tool could solve it.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Workarounds or other tools you have tried.

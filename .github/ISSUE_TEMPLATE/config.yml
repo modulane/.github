@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 💬 Questions & discussions
-    url: https://github.com/<ORG>/<REPO>/discussions
-    about: Les questions d'usage vont dans les Discussions, pas les issues.
-  - name: 🔒 Rapport de sécurité privé
-    url: https://github.com/<ORG>/<REPO>/security/advisories/new
-    about: Jamais d'issue publique pour une faille.
+  - name: 🔒 Report a security vulnerability
+    url: https://github.com/modulane/.github/blob/main/SECURITY.md
+    about: Never open a public issue for a vulnerability. Report it privately from the repository's Security tab.
+  - name: 💬 Support guide
+    url: https://github.com/modulane/.github/blob/main/SUPPORT.md
+    about: Where to ask questions and how to get help with Modulane tools.
