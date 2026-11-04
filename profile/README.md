@@ -9,7 +9,7 @@ Modulane is a set of projects I build for my own web development work and publis
 | Project                                                            | What it does                                                                                                                                                                                  | Install                                      |
 | ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
 | [Dev Workspace CLI](https://github.com/modulane/dev-workspace-cli) | Browse the projects in your development folder and run their scripts from one interactive menu, with npm, pnpm, Yarn or Bun detected automatically.                                           | `npm install -g @modulane/dev-workspace-cli` |
-| [Nuxt Core](https://github.com/modulane/nuxt-core)                 | Build websites with [Nuxt](https://nuxt.com/) from tested building blocks: accessible unstyled components, a design system, or both, as Nuxt layers that a site extends and can override.     | None yet: in development                     |
+| [Nuxt Core](https://github.com/modulane/nuxt-core)                 | Build websites with [Nuxt](https://nuxt.com/) from tested building blocks: accessible unstyled components, a design system, or both, as Nuxt layers that a site extends and can override.     | None yet: not on npm until it is usable      |
 
 More projects are on the way. Watch this organisation or star the repositories to hear about new ones.
 
