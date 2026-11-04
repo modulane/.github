@@ -4,29 +4,14 @@
 
 Modulane is a collection of tools I build for my own workflow and publish for anyone who finds them useful. Each one solves a specific, recurring annoyance, does it with as little setup as possible, and works on Windows, macOS and Linux.
 
-## Tools
+## Projects
 
-| Tool                                                               | What it does                                                                                                                                        | Install                                      |
-| ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
-| [Dev Workspace CLI](https://github.com/modulane/dev-workspace-cli) | Browse the projects in your development folder and run their scripts from one interactive menu, with npm, pnpm, Yarn or Bun detected automatically. | `npm install -g @modulane/dev-workspace-cli` |
+| Project                                                            | What it does                                                                                                                                                                                  | Install                                      |
+| ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| [Dev Workspace CLI](https://github.com/modulane/dev-workspace-cli) | Browse the projects in your development folder and run their scripts from one interactive menu, with npm, pnpm, Yarn or Bun detected automatically.                                           | `npm install -g @modulane/dev-workspace-cli` |
+| [Nuxt Core](https://github.com/modulane/nuxt-core)                 | Build websites with [Nuxt](https://nuxt.com/) from tested building blocks: accessible unstyled components, a design system, or both, as Nuxt layers that a site extends and can override. | None yet: in development                     |
 
-More tools are on the way. Watch this organisation or star the repositories to hear about new ones.
-
-## In development
-
-### [Nuxt Core](https://github.com/modulane/nuxt-core)
-
-**Build once, reuse everywhere.** Nuxt Core is a reusable foundation for building websites with [Nuxt](https://nuxt.com/). It turns the problems every new site solves again (buttons, forms, navigation, layouts, typography, accessibility, SEO, common sections) into building blocks that are developed and tested once, then combined into new sites.
-
-It comes as [Nuxt layers](https://nuxt.com/docs/guide/going-further/layers) that a site can use together or on their own:
-
-- **Primitives:** accessible, unstyled components to style with your own CSS, Tailwind or anything else.
-- **Design:** a design system of tokens and SCSS styles, to use with these components or another library's.
-- **Everything:** the primitives styled by the design system.
-
-A site can override any style, component, composable or layout. Nuxt Core is built with Nuxt 4, Vue 3, strict TypeScript and Sass.
-
-Nuxt Core is in early development, before 1.0.0, and open to contributions. A site installs a tagged release from GitHub, as the [README](https://github.com/modulane/nuxt-core#usage) shows. The [roadmap](https://github.com/modulane/nuxt-core/blob/main/ROADMAP.md) shows what is done and what comes next.
+More projects are on the way. Watch this organisation or star the repositories to hear about new ones.
 
 ## Principles
 
