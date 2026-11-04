@@ -1,38 +1,23 @@
 # Modulane
 
-**Small tools that speed up everyday development work.**
+**Open-source projects for the parts of web development you keep redoing.**
 
-Modulane is a collection of tools I build for my own workflow and publish for anyone who finds them useful. Each one solves a specific, recurring annoyance, does it with as little setup as possible, and works on Windows, macOS and Linux.
+Modulane is a set of projects I build for my own web development work and publish for anyone who finds them useful. Each one takes a job I kept redoing by hand, from finding and running project scripts to rebuilding the same website parts, and makes it something I set up once and stop thinking about.
 
-## Tools
+## Projects
 
-| Tool                                                               | What it does                                                                                                                                        | Install                                      |
-| ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
-| [Dev Workspace CLI](https://github.com/modulane/dev-workspace-cli) | Browse the projects in your development folder and run their scripts from one interactive menu, with npm, pnpm, Yarn or Bun detected automatically. | `npm install -g @modulane/dev-workspace-cli` |
+| Project                                                            | What it does                                                                                                                                                                                  | Install                                      |
+| ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| [Dev Workspace CLI](https://github.com/modulane/dev-workspace-cli) | Browse the projects in your development folder and run their scripts from one interactive menu, with npm, pnpm, Yarn or Bun detected automatically.                                           | `npm install -g @modulane/dev-workspace-cli` |
+| [Nuxt Core](https://github.com/modulane/nuxt-core)                 | Build websites with [Nuxt](https://nuxt.com/) from tested building blocks: accessible unstyled components, a design system, or both, as Nuxt layers that a site extends and can override.     | None yet: not on npm until it is usable      |
 
-More tools are on the way. Watch this organisation or star the repositories to hear about new ones.
-
-## In development
-
-### Nuxt Core
-
-**Build once, reuse everywhere.** Nuxt Core is a reusable foundation for building websites with [Nuxt](https://nuxt.com/). It turns the problems every new site solves again (buttons, forms, navigation, layouts, typography, accessibility, SEO, common sections) into building blocks that are developed and tested once, then combined into new sites.
-
-It comes as [Nuxt layers](https://nuxt.com/docs/guide/going-further/layers) that a site can use together or on their own:
-
-- **Primitives:** accessible, unstyled components to style with your own CSS, Tailwind or anything else.
-- **Design:** a design system of tokens and SCSS styles, to use with these components or another library's.
-- **Everything:** the primitives styled by the design system.
-
-A site can override any style, component, composable or layout. Nuxt Core is built with Nuxt 4, Vue 3, strict TypeScript and Sass.
-
-The repository is private during early development. It will open to the public, and to contributions, soon.
+More projects are on the way. Watch this organisation or star the repositories to hear about new ones.
 
 ## Principles
 
-- **Built from real use.** Every tool starts as something I needed in my own work, and I keep using it after it ships.
-- **Small and focused.** One job per tool, few dependencies, sensible defaults.
-- **Cross-platform.** Tested on Windows, macOS and Linux.
+- **Built from real use.** Every project starts as something I needed in my own work, and I keep using it after it ships.
+- **Focused.** One job per project, few dependencies, sensible defaults.
+- **Works everywhere.** Tools run on Windows, macOS and Linux. Website building blocks work on every screen size, with a keyboard and with assistive technology.
 - **Open source.** Released under the MIT License unless a repository says otherwise.
 
 ## Getting help
@@ -43,4 +28,4 @@ The repository is private during early development. It will open to the public, 
 
 ## Contributing
 
-Contributions are welcome. Each repository has its own `CONTRIBUTING.md` with setup and workflow details. Nuxt Core will accept contributions once its repository is public.
+Contributions are welcome. Each repository has its own `CONTRIBUTING.md` with setup and workflow details. Issues labelled `good first issue` or `help wanted` are ready to pick up.

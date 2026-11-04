@@ -1,10 +1,10 @@
 name: ❓ Question
-description: Ask how to use a tool.
+description: Ask how to use a project.
 labels: ["question"]
 body:
   - type: markdown
     attributes:
-      value: Please read the tool's README first. It answers most setup and usage questions.
+      value: Please read the project's README first. It answers most setup and usage questions.
   - type: textarea
     id: question
     attributes:
@@ -15,4 +15,4 @@ body:
   - type: input
     id: environment
     attributes:
-      label: Tool version and operating system
+      label: Project version and operating system

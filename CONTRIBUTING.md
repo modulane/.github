@@ -1,13 +1,13 @@
 # Contributing to Modulane
 
-Thank you for helping improve a Modulane tool. This guide covers the conventions shared by every repository in the organisation.
+Thank you for helping improve a Modulane project. This guide covers the conventions shared by every repository in the organisation.
 
 A repository can have its own `CONTRIBUTING.md` with setup instructions, commands and code layout. When it does, GitHub shows that guide instead of this one, and its rules take precedence where they differ.
 
 ## Before you start
 
 - **Bugs:** search the existing issues first, then open one with the bug report form.
-- **New features:** open an issue with the feature request form before writing a large change. Each tool has a narrow purpose, and agreeing on the problem first saves you from writing code that cannot be merged.
+- **New features:** open an issue with the feature request form before writing a large change. Each project has a narrow purpose, and agreeing on the problem first saves you from writing code that cannot be merged.
 - **Small fixes** such as typos or obvious bugs can go straight to a pull request.
 
 By participating, you agree to follow the [code of conduct](CODE_OF_CONDUCT.md).
@@ -48,8 +48,8 @@ In repositories with automated releases, the type decides what is published: `fi
 
 ## What makes a good change
 
-- **It fits the tool's purpose.** Modulane tools stay small and focused. A feature that only serves one unusual setup may be better as a configuration option, or outside the tool.
-- **It works everywhere.** Tools support Windows, macOS and Linux. Avoid shell-specific commands and hard-coded path separators.
+- **It fits the project's purpose.** Modulane projects stay focused. A feature that only serves one unusual setup may be better as a configuration option, or outside the project.
+- **It works everywhere.** Tools support Windows, macOS and Linux, so avoid shell-specific commands and hard-coded path separators. Website building blocks support every screen size, keyboard use and assistive technology.
 - **It adds few dependencies.** Add a dependency only when it solves a real problem that the platform or the existing dependencies cannot.
 - **It keeps the documentation current.** Update the README and any other affected documentation in the same pull request.
 

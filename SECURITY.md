@@ -16,9 +16,9 @@ You will receive an initial response within 72 hours. Please allow a reasonable 
 
 ## Supported versions
 
-Security fixes are released for the latest version of each tool. Update to the latest version before reporting, and check that the issue still occurs.
+Security fixes are released for the latest version of each project. Update to the latest version before reporting, and check that the issue still occurs.
 
-Once a tool reaches 1.0.0, the previous major version also receives critical security fixes for 6 months after the next major version is released. The Modulane maintainer may change this policy.
+Once a project reaches 1.0.0, the previous major version also receives critical security fixes for 6 months after the next major version is released. The Modulane maintainer may change this policy.
 
 A repository's own `SECURITY.md` may list different supported versions.
 
