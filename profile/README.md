@@ -1,8 +1,8 @@
 # Modulane
 
-**Small tools that speed up everyday development work.**
+**Reusable building blocks for web development.**
 
-Modulane is a collection of tools I build for my own workflow and publish for anyone who finds them useful. Each one solves a specific, recurring annoyance, does it with as little setup as possible, and works on Windows, macOS and Linux.
+Modulane is a set of open-source projects I build for my own web development work and publish for anyone who finds them useful. Each one takes a job I kept redoing by hand, from running project scripts to rebuilding the same website parts, and turns it into a piece that is built and tested once, then reused.
 
 ## Projects
 
@@ -15,9 +15,9 @@ More projects are on the way. Watch this organisation or star the repositories t
 
 ## Principles
 
-- **Built from real use.** Every tool starts as something I needed in my own work, and I keep using it after it ships.
-- **Small and focused.** One job per tool, few dependencies, sensible defaults.
-- **Cross-platform.** Tested on Windows, macOS and Linux.
+- **Built from real use.** Every project starts as something I needed in my own work, and I keep using it after it ships.
+- **Focused.** One job per project, few dependencies, sensible defaults.
+- **Works everywhere.** Tools run on Windows, macOS and Linux. Website building blocks work on every screen size, with a keyboard and with assistive technology.
 - **Open source.** Released under the MIT License unless a repository says otherwise.
 
 ## Getting help
