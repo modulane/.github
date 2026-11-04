@@ -14,7 +14,7 @@ More tools are on the way. Watch this organisation or star the repositories to h
 
 ## In development
 
-### Nuxt Core
+### [Nuxt Core](https://github.com/modulane/nuxt-core)
 
 **Build once, reuse everywhere.** Nuxt Core is a reusable foundation for building websites with [Nuxt](https://nuxt.com/). It turns the problems every new site solves again (buttons, forms, navigation, layouts, typography, accessibility, SEO, common sections) into building blocks that are developed and tested once, then combined into new sites.
 
@@ -26,7 +26,7 @@ It comes as [Nuxt layers](https://nuxt.com/docs/guide/going-further/layers) that
 
 A site can override any style, component, composable or layout. Nuxt Core is built with Nuxt 4, Vue 3, strict TypeScript and Sass.
 
-The repository is private during early development. It will open to the public, and to contributions, soon.
+Nuxt Core is in early development, before 1.0.0, and open to contributions. A site installs a tagged release from GitHub, as the [README](https://github.com/modulane/nuxt-core#usage) shows. The [roadmap](https://github.com/modulane/nuxt-core/blob/main/ROADMAP.md) shows what is done and what comes next.
 
 ## Principles
 
@@ -43,4 +43,4 @@ The repository is private during early development. It will open to the public, 
 
 ## Contributing
 
-Contributions are welcome. Each repository has its own `CONTRIBUTING.md` with setup and workflow details. Nuxt Core will accept contributions once its repository is public.
+Contributions are welcome. Each repository has its own `CONTRIBUTING.md` with setup and workflow details. Issues labelled `good first issue` or `help wanted` are ready to pick up.
