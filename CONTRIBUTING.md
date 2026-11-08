@@ -19,7 +19,7 @@ Every change reaches `main` through a pull request:
 1. Fork the repository and create a branch named after the change, such as `feat/project-search`, `fix/ctrl-c` or `docs/readme`.
 2. Make the change, with tests where practical. Bug fixes should include a test that fails without the fix.
 3. Run the repository's checks locally. Its README or `CONTRIBUTING.md` names the command, usually `npm run check`.
-4. Open a pull request that explains what changed, and why if that is not obvious.
+4. Open a pull request that explains what changed, and why if that is not obvious, and fill in its [AI use](#ai-use) section.
 5. CI runs on every pull request and must pass before the change is merged.
 6. Pull requests are squash-merged, so the pull request title becomes the commit message on `main`.
 
@@ -45,6 +45,16 @@ docs: explain alias setup
 | `build`, `ci`, `chore` | Tooling, CI and maintenance               |
 
 In repositories with automated releases, the type decides what is published: `fix` makes a patch release, `feat` a minor release, and the other types none. Do not mark a change as breaking (`feat!:` or a `BREAKING CHANGE:` footer) unless the maintainer has agreed to a major release.
+
+## AI use
+
+AI tools are allowed, but their use is never hidden. The rule is the same for the maintainer and for contributors.
+
+- **Pull requests:** fill in the **AI use** section of the pull request template. Tick **No AI tool was used**, or tick **AI tools were used** and name each tool and what it did under it, for example "Claude Code wrote the first draft of the tests; I reviewed and changed them". The **AI disclosure** check fails until exactly one box is ticked, and a pull request cannot be merged without it. Editing the description runs the check again. Dependabot pull requests are exempt.
+- **Issues:** every issue form asks the same question.
+- **Comments and reviews:** say so when an AI tool wrote or drafted what you post. No check can verify this, so it relies on you.
+
+You are responsible for everything you submit, whoever or whatever wrote it: read it, test it, and be ready to explain it.
 
 ## What makes a good change
 
