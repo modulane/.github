@@ -16,10 +16,11 @@ Modulane is a set of projects I build for my own web development work and publis
 
 These hold the setup that modulane repositories share, so each one stops carrying its own copy. They are built for this organisation first: anyone can use the public ones, but they follow what modulane repositories need.
 
-| Repository                                     | What it holds                                                                                                                                                                                                                             | Install                                                            |
-| ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| [configs](https://github.com/modulane/configs) | The shared Prettier options and ESLint flat configs for Node.js packages and Nuxt projects, each published on npm on its own.                                                                                                             | `npm install -D @modulane/prettier-config @modulane/eslint-config` |
-| repo-template _(private)_                      | The reference GitHub setup every modulane repository starts from and follows: rulesets, CI ending in a single **CI passed** job, pull request title and label checks, AI disclosure, zizmor, Dependabot for actions and semantic-release. | Not published                                                      |
+| Repository                                         | What it holds                                                                                                                                                                                                    | Install                                                            |
+| -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [configs](https://github.com/modulane/configs)     | The shared Prettier options and ESLint flat configs for Node.js packages and Nuxt projects, each published on npm on its own.                                                                                    | `npm install -D @modulane/prettier-config @modulane/eslint-config` |
+| [workflows](https://github.com/modulane/workflows) | Reusable GitHub Actions workflows that every modulane repository calls, so a fix reaches all of them at once: pull request title and labels, AI disclosure, label sync and zizmor.                               | `uses: modulane/workflows/.github/workflows/<name>.yml@<sha>`      |
+| repo-template _(private)_                          | The reference GitHub setup every modulane repository starts from and follows: rulesets, CI ending in a single **CI passed** job, the calls to the shared workflows, Dependabot for actions and semantic-release. | Not published                                                      |
 
 ## Planned and in development
 
@@ -32,7 +33,6 @@ Nothing here is on npm yet. These repositories are private until they are usable
 | terminal-ui          | The mouse-first, keyboard-complete terminal menus from Dev Workspace CLI, as a library, so every modulane CLI looks and behaves the same. | Planned        |
 | branch-pruner        | Review stale Git branches in an interactive menu, squash merges included, before anything is deleted locally or on GitHub.                | Planned        |
 | repo-check           | Check that a modulane repository still matches the reference setup, as a CLI and as a GitHub Action, and report what has drifted.         | Planned        |
-| workflows            | Reusable GitHub Actions workflows that every modulane repository calls, so a change reaches all of them at once.                          | Planned        |
 
 Watch this organisation or star the repositories to hear when one is released.
 
