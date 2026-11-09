@@ -11,3 +11,5 @@ Modulane projects are maintained by one person alongside their own work, so help
 | Report a code of conduct violation | Follow the reporting steps in the [code of conduct](CODE_OF_CONDUCT.md) |
 
 When you ask for help, include the project's version, your operating system and the steps that led to the problem. It makes the answer much faster.
+
+If a project saves you time and you want to support its development, see [Modulane on Patreon](https://www.patreon.com/modulane).

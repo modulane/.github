@@ -43,6 +43,10 @@ Watch this organisation or star the repositories to hear when one is released.
 - **Works everywhere.** Tools run on Windows, macOS and Linux. Website building blocks work on every screen size, with a keyboard and with assistive technology.
 - **Open source.** Released under the MIT License unless a repository says otherwise.
 
+## Supporting the work
+
+Modulane is built and maintained by one person. If these projects save you time, you can support them on [Patreon](https://www.patreon.com/modulane), where I also post what I am working on and what comes next.
+
 ## Getting help
 
 - **Questions and ideas:** open a discussion or issue in the relevant repository.
