@@ -6,12 +6,35 @@ Modulane is a set of projects I build for my own web development work and publis
 
 ## Projects
 
-| Project                                                            | What it does                                                                                                                                                                                  | Install                                      |
-| ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
-| [Dev Workspace CLI](https://github.com/modulane/dev-workspace-cli) | Browse the projects in your development folder and run their scripts from one interactive menu, with npm, pnpm, Yarn or Bun detected automatically.                                           | `npm install -g @modulane/dev-workspace-cli` |
-| [Nuxt Core](https://github.com/modulane/nuxt-core)                 | Build websites with [Nuxt](https://nuxt.com/) from tested building blocks: accessible unstyled components, a design system, or both, as Nuxt layers that a site extends and can override.     | None yet: not on npm until it is usable      |
+| Project                                                            | What it does                                                                                                                                                                              | Install                                         |
+| ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| [Dev Workspace CLI](https://github.com/modulane/dev-workspace-cli) | Browse the projects in your development folder and run their scripts from one interactive menu, with npm, pnpm, Yarn or Bun detected automatically.                                       | `npm install -g @modulane/dev-workspace-cli`    |
+| [Nuxt Core](https://github.com/modulane/nuxt-core)                 | Build websites with [Nuxt](https://nuxt.com/) from tested building blocks: accessible unstyled components, a design system, or both, as Nuxt layers that a site extends and can override. | None yet: not on npm until it is usable         |
+| [AI Disclosure](https://github.com/modulane/ai-disclosure)         | A GitHub Action that fails a pull request until its description says whether AI tools were used, and how. No token, no checkout, safe on forks.                                           | `uses: modulane/ai-disclosure@v1` in a workflow |
 
-More projects are on the way. Watch this organisation or star the repositories to hear about new ones.
+## Configs and templates
+
+These hold the setup that modulane repositories share, so each one stops carrying its own copy. They are built for this organisation first: anyone can use the public ones, but they follow what modulane repositories need.
+
+| Repository                                     | What it holds                                                                                                                                                                                                                             | Install                                                            |
+| ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| [configs](https://github.com/modulane/configs) | The shared Prettier options and ESLint flat configs for Node.js packages and Nuxt projects, each published on npm on its own.                                                                                                             | `npm install -D @modulane/prettier-config @modulane/eslint-config` |
+| repo-template _(private)_                      | The reference GitHub setup every modulane repository starts from and follows: rulesets, CI ending in a single **CI passed** job, pull request title and label checks, AI disclosure, zizmor, Dependabot for actions and semantic-release. | Not published                                                      |
+
+## Planned and in development
+
+Nothing here is on npm yet. These repositories are private until they are usable, and each one moves up to a section above when it is released.
+
+| Project              | What it will do                                                                                                                           | Status         |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+| Nuxt Extras          | Small Nuxt modules that work alongside Nuxt Core, each released on its own. The first one, nuxt-ripple, adds a `v-ripple` directive.      | In development |
+| create-modulane-nuxt | Start a Nuxt site on Nuxt Core in one command, with linting, CI and releases set up: `npm create @modulane/nuxt`.                         | Planned        |
+| terminal-ui          | The mouse-first, keyboard-complete terminal menus from Dev Workspace CLI, as a library, so every modulane CLI looks and behaves the same. | Planned        |
+| branch-pruner        | Review stale Git branches in an interactive menu, squash merges included, before anything is deleted locally or on GitHub.                | Planned        |
+| repo-check           | Check that a modulane repository still matches the reference setup, as a CLI and as a GitHub Action, and report what has drifted.         | Planned        |
+| workflows            | Reusable GitHub Actions workflows that every modulane repository calls, so a change reaches all of them at once.                          | Planned        |
+
+Watch this organisation or star the repositories to hear when one is released.
 
 ## Principles
 
